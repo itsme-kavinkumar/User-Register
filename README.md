@@ -1,4 +1,4 @@
-# User-Register :busts_in_silhouette:
+# User-Register :
 
 Welcome to the User-Register repository! This project is split into two main components:
 
@@ -55,10 +55,12 @@ Set up the frontend application with these steps:
 
 1. **Open a new command terminal.**
 2. **Activate the virtual environment (if not already activated):**
-cd virtual\Scripts\activate
+    ```
+      cd virtual\Scripts\activate
+    ```
 
 
-3. **Navigate to the frontend directory and start the server:**
+4. **Navigate to the frontend directory and start the server:**
 - Navigate:
   ```
   cd UserProjectWeb

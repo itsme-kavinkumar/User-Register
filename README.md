@@ -1,6 +1,10 @@
 # User-Register :busts_in_silhouette:
 
-Welcome to the User-Register repository! This repository consists of two main components: `UserProjectApi` and `UserProjectWeb`. The `UserProjectApi` acts as the backend API, providing necessary services and data management, while `UserProjectWeb` serves as the frontend web application, offering a user-friendly interface for interactions.
+Welcome to the User-Register repository! This project is split into two main components:
+
+- **UserProjectApi**: This serves as the backend API, handling all data management and server-side logic.
+- **UserProjectWeb**: This is the frontend web application, providing the user interface that interacts with the backend.
+
 
 ## :gear: Backend Project Setup: UserProjectApi
 
@@ -23,22 +27,23 @@ Follow these steps to set up the backend API:
      ```
      pip install -r requirements.txt
      ```
-
-4. **Configure the database:**
-   - Navigate to the `UserProjectApi` directory:
+4. **Navigate to the UserProjectApi directory:**
+     - Navigate to the `UserProjectApi` directory:
      ```
      cd UserProjectApi
      ```
+5. **Configure the database:**
+   
    - Configure your local database in `settings.py`.
 
-5. **Apply database migrations:**
+6. **Apply database migrations:**
    - Run the following commands:
      ```
      py manage.py makemigrations
      py manage.py migrate
      ```
 
-6. **Start the server:**
+7. **Start the server:**
    - Run:
      ```
      py manage.py runserver
